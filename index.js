@@ -9,6 +9,6 @@ function nowServing(line){
   }
   const numbersAndNames = []
   for(let i = 0; i < line.length; i++) {
-    numbersAndNames.push(`${i +1}. ${line[i]}`)    
+    numbersAndNames.push(`${i +1}, ${line[i]}`)    
   }
 }
