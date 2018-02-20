@@ -14,5 +14,5 @@ function currentLine(line) {
   if(!line.length) {
     return 'The line is currently empty.'
   }
-  return ``
+  return `The line is currently: ${line[i]. ${line}}`
 }
