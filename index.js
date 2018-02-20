@@ -14,10 +14,8 @@ function currentLine(line) {
  if (!line.length) {
    return `The line is currently empty.`
  }
-}
-
-
-const numbersAndNames = []
-for(let i = 0; i < line.length; i++) {
-  numbersAndNames.push(`${i +1}, ${line[i]}`)
+ const numbersAndNames = []
+ for(let i = 0; i < line.length; i++) {
+   numbersAndNames.push(`${i +1}, ${line[i]}`)
+ }
 }
