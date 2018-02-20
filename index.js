@@ -8,7 +8,7 @@ function nowServing(line){
     return "There is nobody waiting to be served!"
   } else {
     for(let i = 0; i < line.length; i++) {
-      ``
+      `Currently serving {i}.`
     }
   }
 }
